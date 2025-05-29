@@ -88,7 +88,7 @@ void showWaitScreen(int delayMillis) {
 bool setNewCode() {
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Enter new code:");
+  lcd.print("Irj be uj kodot: ");
   String newCode = inputSecretCode();
 
   lcd.clear();
