@@ -49,7 +49,7 @@ void unlock() {
 void showStartupMessage() {
   lcd.setCursor(4, 0);
   lcd.print("Welcome!");
-  delay(1000);
+  delay(2000);
 
   lcd.setCursor(0, 2);
   String message = "ArduinoSafe v1.0";
