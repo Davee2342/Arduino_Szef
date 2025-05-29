@@ -5,7 +5,7 @@
    Released under the MIT License.
 */
 
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h>   /* hozza adja az lcdhez a könyvtarat*/
 #include <Keypad.h>
 #include <Servo.h>
 #include "SafeState.h"
