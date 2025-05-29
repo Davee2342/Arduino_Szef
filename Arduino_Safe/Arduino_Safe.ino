@@ -5,7 +5,7 @@
    Released under the MIT License.
 */
 
-#include <LiquidCrystal.h>
+#include <LiquidCrystal.h>   /* hozza adja az lcdhez a könyvtarat*/
 #include <Keypad.h>
 #include <Servo.h>
 #include "SafeState.h"
@@ -93,7 +93,7 @@ bool setNewCode() {
 
   lcd.clear();
   lcd.setCursor(0, 0);
-  lcd.print("Confirm new code");
+  lcd.print("kod megerősitése:");
   String confirmCode = inputSecretCode();
 
   if (newCode.equals(confirmCode)) {
